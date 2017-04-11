@@ -1,6 +1,6 @@
 {
   "name": "kodex",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a simple library for sorting and filtering through a directory of front-matter parsed markdown files",
   "author": "Nathaniel Martin <nate.teh.greatt@gmail.com>",
   "homepage": "https://github.com/natethegreatt/kodex",
