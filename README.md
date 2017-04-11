@@ -1,4 +1,4 @@
-# Kodex.js Readme
+# Kodex.js
 Kodex.js walks a directory of markdown files, parses them as front-matter, and generates a simple API for accessing those files.
 
 The main focus is to provide sorting and filtering methods for (but not limited to) blog posts. The service can be used in any number of ways. Wrap a RESTful API around it, or utilize it during static generation (plays nicely with [Nuxt.js](https://nuxtjs.org)).
@@ -41,7 +41,7 @@ postKodex.search('filename')
 
 ### `.recent(count)`
 
-> Gets n most recent posts (soted by date descending)
+> Gets n most recent posts (sorted by date descending)
 > | PARAMETER     | TYPE       | DESCRIPTION  |
 > | ------------- | ------------- | ------------ |
 > | count | `number` | Number of recent entries to return |
@@ -50,11 +50,13 @@ postKodex.search('filename')
 ### `.allTags()`
 
 > Scrapes all tags from files
+>
 > **Returns:** Array
 
 ### `.findWithTag(tagName)`
 
 > Gets all files that have the specified tag
+>
 > **Returns:** Array
 
 Caveats:
