@@ -18,32 +18,32 @@ Planned:
 let Kodex = require('kodex')
 let postKodex = new Kodex(path.join(__dirname, 'posts'))
 
-postKodex.search('filename')
+postKodex.get('filename')
 ```
 
 ## Docs
 
-### `.search(term)`
-
-> Searches for an entry
-> | PARAMETER     | TYPE       | DESCRIPTION  |
-> | ------------- | ------------- | ------------ |
-> | term | `string` | Term to be matched against filenames |
-> **Returns:** Array
-
 ### `.get(filename)`
 
 > Gets an entry by filename
-> | PARAMETER     | TYPE       | DESCRIPTION  |
-> | ------------- | ------------- | ------------ |
+> | PARAMETER | TYPE | DESCRIPTION |
+> | --- | --- | --- |
 > | filename | `string` | Exact filename of desired file (minus the extension) |
+> **Returns:** Array
+
+### `.search(term)`
+
+> Searches for an entry
+> | PARAMETER | TYPE | DESCRIPTION |
+> | --- | --- | --- |
+> | term | `string` | Term to be matched against filenames |
 > **Returns:** Array
 
 ### `.recent(count)`
 
 > Gets n most recent posts (sorted by date descending)
-> | PARAMETER     | TYPE       | DESCRIPTION  |
-> | ------------- | ------------- | ------------ |
+> | PARAMETER | TYPE | DESCRIPTION |
+> | --- | --- | --- |
 > | count | `number` | Number of recent entries to return |
 > **Returns:** Array
 
