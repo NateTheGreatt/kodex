@@ -1,0 +1,24 @@
+{
+  "name": "kodex.js",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "homepage": "https://github.com/natethegreatt/kodex",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natethegreatt/kodex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natethegreatt/kodex/issues"
+  },
+  "main": "kodex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "front-matter": "^2.1.2",
+    "ramda": "^0.23.0",
+    "walk-r": "0.0.6"
+  }
+}
